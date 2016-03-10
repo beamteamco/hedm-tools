@@ -7,7 +7,7 @@ Refer to [Neper documentation](http://neper.sourceforge.net/docs/neper.pdf) for 
 `fprintf` or `dlmwrite` function to print them to a text file. Copy the center of mass data file
 to a folder on the server. Run the following Neper commands to create a tessellation.
 
-2. `neper -T -n 513 -id 1 -dim 3 -domain 'cube(0.6,0.3,0.6)' -morpho '@com_301lss_18.data' -ori '3D' -for tess -regularization 0 -filter noise -centroid 1 -o hcp`
+2. `neper -T -n 513 -id 1 -dim 3 -domain 'cube(0.6,0.3,0.6)' -morpho '@com_301lss_18.data' -ori '3D' -for tess -regularization 0 -filter noise -centroid 1 -o output_file_name.tess`
 `-T` specifies tessellation module.
 `-n` is the number of grains. `-id` is the seed for the random number generator (not sure if we need this, since we are providing
 grain center of mass). `-dim 3` is the number of dimensions (3D). `-domain ` is the bounding domain.
