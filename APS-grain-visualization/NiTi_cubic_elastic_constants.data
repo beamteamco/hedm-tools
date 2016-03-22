@@ -1,0 +1,17 @@
+M.F.-X. Wagner, W. Windl, Lattice stability, elastic constants and macroscopic moduli of NiTi martensites from first principles, Acta Materialia. 56 (2008) 6232–6245. doi:10.1016/j.actamat.2008.08.043.
+NiTi cubic
+density kg/m3
+1000.0
+a,b,c,alpha,beta,gamma
+  3.015 3.015 3.015 90.000  90.000  90.000
+Elastic constant axes X1,X2,X3
+Two orthogonal crystallographic directions
+X1,X3
+[100],[001]
+Cij (GPa)
+ 138.00  169.00 169.00   .00   .00   .00
+ 169.00  138.00 169.00   .00   .00   .00
+ 169.00  169.80 138.00   .00   .00   .00
+    .00     .00    .00 40.00   .00   .00
+    .00     .00    .00   .00 40.00   .00
+    .00     .00    .00   .00   .00 40.70
