@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+from __future__ import print_function
+
 from hedm import quaternion
 import numpy as np
 from matplotlib.colors import colorConverter
@@ -188,6 +190,14 @@ class Hexagonal(UnitCell):
 
 
 if __name__ == '__main__':
+    # This is a relic stand in for actual testing that
+    # originated from the developmental jupyter notebook.
+    # These should be incorporated into proper tests at
+    # some point...
+    # It was causing problems for Garrison -- complaining
+    # about invalid syntax -- so I just commented out all
+    # the __main__ section.
+    # TODO: translate these into proper tests.
     from matplotlib import pyplot as plt
     from matplotlib import cm
     from matplotlib.colors import Colormap, Normalize
@@ -267,8 +277,8 @@ if __name__ == '__main__':
 
     # In[10]:
 
-    print ' '.join(grains.dtype.names)
-    print len(grains)
+    print(' '.join(grains.dtype.names))
+    print(len(grains))
 
 
     # In[31]:
